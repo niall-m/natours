@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width;
-  background-color: #eee;
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -13,7 +12,6 @@
   // [class*="col-"] { // * match where element class name contains 'col-'
   [class^='col-'] {
     // ^ match where element class name starts with 'col-'
-    background-color: orange;
     float: left;
 
     &:not(:last-child) {
