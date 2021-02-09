@@ -920,6 +920,11 @@ body {
   .popup__left {
     width: 33.333%;
     display: table-cell; }
+    @media (max-width: 75em) {
+      .popup__left {
+        width: 100%;
+        display: block;
+        padding-bottom: 4rem; } }
     @media (max-width: 37.5em) {
       .popup__left {
         display: none; } }
@@ -928,9 +933,21 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem; }
+    @media (max-width: 75em) {
+      .popup__right {
+        display: block;
+        text-align: center;
+        width: 100%; } }
   .popup__img {
     display: block;
     width: 101%; }
+    @media (max-width: 75em) {
+      .popup__img {
+        width: 50%;
+        height: 30rem;
+        float: left;
+        object-fit: cover;
+        margin-bottom: 3rem; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
